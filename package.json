@@ -1,0 +1,11 @@
+{
+  "name": "jp.illusive-isc.blendshape-sync-all",
+  "version": "1.0.0",
+  "displayName": "Blendshape Sync All",
+  "description": "A tool to sync all blendshapes",
+  "unity": "2020.3",
+  "author": {
+    "name": "illusive_isc",
+    "url": "https://illusive_isc.jp"
+  }
+}
