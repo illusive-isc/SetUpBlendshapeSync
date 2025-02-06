@@ -65,10 +65,10 @@ jobs:
           tag_name: ${{ env.version }}
           prerelease: ${{ github.ref == 'refs/heads/dev' }}
 
-      - name: call-build-listing
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: build-listing.yml
-          repo: Tliks/vpm-repos
-          token: ${{ secrets.DISPATCH_TOKEN }}
-          ref: main
+      # - name: call-build-listing
+      #   uses: benc-uk/workflow-dispatch@v1
+      #   with:
+      #     workflow: build-listing.yml
+      #     repo: Tliks/vpm-repos
+      #     token: ${{ secrets.DISPATCH_TOKEN }}
+      #     ref: main
