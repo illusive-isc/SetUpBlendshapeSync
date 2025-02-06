@@ -1,6 +1,6 @@
 {
   "name": "jp.illusive-isc.blendshape-sync-all",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Blendshape Sync All",
   "description": "A tool to sync all blendshapes",
   "unity": "2022.3",
